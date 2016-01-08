@@ -840,10 +840,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "live.dial", "freq", 0 ],
+			"obj-35" : [ "live.dial[3]", "freq", 0 ],
 			"obj-31" : [ "live.dial[2]", "freq", 0 ],
-			"obj-27" : [ "live.dial[1]", "freq", 0 ],
-			"obj-35" : [ "live.dial[3]", "freq", 0 ]
+			"obj-26" : [ "live.dial", "freq", 0 ],
+			"obj-27" : [ "live.dial[1]", "freq", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

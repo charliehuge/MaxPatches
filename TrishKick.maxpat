@@ -38,16 +38,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
-					"id" : "obj-2",
-					"maxclass" : "preset",
+					"id" : "obj-22",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 287.0, 432.0, 100.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 7.25, 152.0, 41.25 ],
-					"style" : ""
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 435.0, 90.0, 70.0, 22.0 ],
+					"restore" : [ 60.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr decay",
+					"varname" : "decay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 347.0, 90.0, 71.0, 22.0 ],
+					"restore" : [ 49.162205 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr tuning",
+					"varname" : "tuning"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 286.0, 49.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
 				}
 
 			}
@@ -113,7 +149,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.0, 290.0, 221.0, 22.0 ],
 					"style" : "",
-					"text" : "66.866142 16.716536 188.755905"
+					"text" : "49.162205 12.290551 60."
 				}
 
 			}
@@ -166,7 +202,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 84.5, 186.0, 96.0, 22.0 ],
 					"style" : "",
-					"text" : "188.755905"
+					"text" : "60."
 				}
 
 			}
@@ -366,6 +402,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -465,8 +519,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28" : [ "live.dial", "tuning", 0 ],
-			"obj-31" : [ "live.dial[2]", "decay", 0 ]
+			"obj-31" : [ "live.dial[2]", "decay", 0 ],
+			"obj-28" : [ "live.dial", "tuning", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

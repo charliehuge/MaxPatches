@@ -1,0 +1,83 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bp.Pan Mixer::Mute" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[1]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[2]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[3]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[4]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[5]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[6]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[7]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[8]" : [ 0.0 ],
+					"bp.Pan Mixer::ch1_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch2_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch3_pan" : [ -50.0 ],
+					"bp.Pan Mixer::ch4_pan" : [ 50.0 ],
+					"bp.Pan Mixer::ch5_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch6_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch7_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch8_pan" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[1]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[2]" : [ -20.944881 ],
+					"bp.Pan Mixer::live.gain~[3]" : [ -21.20315 ],
+					"bp.Pan Mixer::live.gain~[4]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[5]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[6]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[7]" : [ 0.0 ],
+					"TrishSnare::tuning" : [ 352.949341 ],
+					"TrishSnare::snappy" : [ 0.409449 ],
+					"TrishSnare::decay" : [ 75.834648 ],
+					"TrishKick::tuning" : [ 87.965355 ],
+					"TrishKick::decay" : [ 399.527557 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"bp.Pan Mixer::Mute" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[1]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[2]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[3]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[4]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[5]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[6]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[7]" : [ 0.0 ],
+					"bp.Pan Mixer::Mute[8]" : [ 0.0 ],
+					"bp.Pan Mixer::ch1_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch2_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch3_pan" : [ -50.0 ],
+					"bp.Pan Mixer::ch4_pan" : [ 50.0 ],
+					"bp.Pan Mixer::ch5_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch6_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch7_pan" : [ 0.0 ],
+					"bp.Pan Mixer::ch8_pan" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[1]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[2]" : [ -20.944881 ],
+					"bp.Pan Mixer::live.gain~[3]" : [ -21.20315 ],
+					"bp.Pan Mixer::live.gain~[4]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[5]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[6]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[7]" : [ 0.0 ],
+					"TrishSnare::tuning" : [ 352.949341 ],
+					"TrishSnare::snappy" : [ 0.606299 ],
+					"TrishSnare::decay" : [ 59.464565 ],
+					"TrishKick::tuning" : [ 43.099213 ],
+					"TrishKick::decay" : [ 500.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
