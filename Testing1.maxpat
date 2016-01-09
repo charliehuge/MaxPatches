@@ -38,6 +38,47 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-17",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "ReceiveOrientation.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "float", "float", "float" ],
+					"patching_rect" : [ 228.0, 21.0, 249.0, 35.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-16",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "FlabbyKick.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 32.0, 372.0, 297.0, 66.0 ],
+					"varname" : "FlabbyKick",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -215,7 +256,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 427.0, 309.0, 451.0, 248.0 ],
+					"patching_rect" : [ 486.0, 342.0, 451.0, 248.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 459.0, 123.0, 451.0, 248.0 ],
 					"viewvisibility" : 1
@@ -237,7 +278,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 351.0, 34.0, 451.0, 248.0 ],
+					"patching_rect" : [ 486.0, 92.0, 451.0, 248.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 123.0, 451.0, 248.0 ],
 					"viewvisibility" : 1
@@ -306,7 +347,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 6.0, 498.0, 395.0, 217.0 ],
+					"patching_rect" : [ 6.0, 494.0, 395.0, 217.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 504.0, 394.0, 217.0 ],
 					"varname" : "bp.Pan Mixer",
@@ -397,6 +438,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -519,44 +569,46 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-27" : [ "live.dial[9]", "freq", 0 ],
-			"obj-2::obj-31" : [ "live.dial[3]", "freq", 0 ],
-			"obj-18::obj-22" : [ "ch1_pan", "Pan", 0 ],
-			"obj-2::obj-26" : [ "live.dial[6]", "freq", 0 ],
-			"obj-18::obj-28" : [ "ch1_mute", "Mute", 0 ],
-			"obj-18::obj-53" : [ "ch3_mute", "Mute", 0 ],
-			"obj-18::obj-96" : [ "ch6_pan", "Pan", 0 ],
-			"obj-38::obj-29" : [ "live.dial[1]", "snappy", 0 ],
-			"obj-18::obj-54" : [ "ch4_level", "4", 0 ],
-			"obj-18::obj-41" : [ "ch2_mute", "Mute", 0 ],
-			"obj-18::obj-63" : [ "ch4_mute", "Mute", 0 ],
-			"obj-18::obj-74" : [ "ch8_level", "8", 0 ],
-			"obj-18::obj-37" : [ "Mute", "Mute", 0 ],
-			"obj-39::obj-28" : [ "live.dial[12]", "tuning", 0 ],
-			"obj-18::obj-43" : [ "ch2_pan", "Pan", 0 ],
-			"obj-2::obj-27" : [ "live.dial[5]", "freq", 0 ],
 			"obj-18::obj-86" : [ "ch7_pan", "Pan", 0 ],
-			"obj-18::obj-73" : [ "ch5_mute", "Mute", 0 ],
-			"obj-18::obj-64" : [ "ch3_level", "3", 0 ],
-			"obj-1::obj-35" : [ "live.dial[8]", "freq", 0 ],
+			"obj-18::obj-74" : [ "ch8_level", "8", 0 ],
+			"obj-18::obj-42" : [ "ch2_level", "2", 0 ],
+			"obj-18::obj-28" : [ "ch1_mute", "Mute", 0 ],
+			"obj-39::obj-28" : [ "live.dial[12]", "tuning", 0 ],
 			"obj-18::obj-65" : [ "ch3_pan", "Pan", 0 ],
+			"obj-18::obj-41" : [ "ch2_mute", "Mute", 0 ],
 			"obj-2::obj-35" : [ "live.dial[4]", "freq", 0 ],
 			"obj-18::obj-75" : [ "ch8_pan", "Pan", 0 ],
-			"obj-38::obj-31" : [ "live.dial[2]", "decay", 0 ],
-			"obj-18::obj-104" : [ "ch8_mute", "Mute", 0 ],
-			"obj-1::obj-26" : [ "live.dial[10]", "freq", 0 ],
-			"obj-18::obj-55" : [ "ch4_pan", "Pan", 0 ],
-			"obj-39::obj-31" : [ "live.dial[11]", "decay", 0 ],
+			"obj-38::obj-28" : [ "live.dial", "tuning", 0 ],
+			"obj-18::obj-63" : [ "ch4_mute", "Mute", 0 ],
+			"obj-18::obj-64" : [ "ch3_level", "3", 0 ],
+			"obj-18::obj-53" : [ "ch3_mute", "Mute", 0 ],
+			"obj-18::obj-54" : [ "ch4_level", "4", 0 ],
 			"obj-18::obj-94" : [ "ch7_mute", "Mute", 0 ],
-			"obj-18::obj-95" : [ "ch6_level", "6", 0 ],
 			"obj-1::obj-31" : [ "live.dial[7]", "freq", 0 ],
-			"obj-18::obj-106" : [ "ch5_pan", "Pan", 0 ],
+			"obj-18::obj-55" : [ "ch4_pan", "Pan", 0 ],
+			"obj-2::obj-26" : [ "live.dial[6]", "freq", 0 ],
+			"obj-18::obj-73" : [ "ch5_mute", "Mute", 0 ],
 			"obj-18::obj-23" : [ "ch1_level", "1", 0 ],
-			"obj-18::obj-42" : [ "ch2_level", "2", 0 ],
+			"obj-18::obj-95" : [ "ch6_level", "6", 0 ],
+			"obj-1::obj-27" : [ "live.dial[9]", "freq", 0 ],
+			"obj-2::obj-31" : [ "live.dial[3]", "freq", 0 ],
+			"obj-18::obj-106" : [ "ch5_pan", "Pan", 0 ],
+			"obj-38::obj-29" : [ "live.dial[1]", "snappy", 0 ],
+			"obj-16::obj-28" : [ "live.dial[14]", "tuning", 0 ],
+			"obj-18::obj-104" : [ "ch8_mute", "Mute", 0 ],
+			"obj-18::obj-105" : [ "ch5_level", "5", 0 ],
+			"obj-38::obj-31" : [ "live.dial[2]", "decay", 0 ],
+			"obj-18::obj-22" : [ "ch1_pan", "Pan", 0 ],
+			"obj-1::obj-35" : [ "live.dial[8]", "freq", 0 ],
+			"obj-18::obj-96" : [ "ch6_pan", "Pan", 0 ],
+			"obj-16::obj-31" : [ "live.dial[13]", "decay", 0 ],
 			"obj-18::obj-84" : [ "ch6_mute", "Mute", 0 ],
 			"obj-18::obj-85" : [ "ch7_level", "7", 0 ],
-			"obj-18::obj-105" : [ "ch5_level", "5", 0 ],
-			"obj-38::obj-28" : [ "live.dial", "tuning", 0 ]
+			"obj-18::obj-37" : [ "Mute", "Mute", 0 ],
+			"obj-39::obj-31" : [ "live.dial[11]", "decay", 0 ],
+			"obj-1::obj-26" : [ "live.dial[10]", "freq", 0 ],
+			"obj-18::obj-43" : [ "ch2_pan", "Pan", 0 ],
+			"obj-2::obj-27" : [ "live.dial[5]", "freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -592,6 +644,18 @@
 , 			{
 				"name" : "Testing1Presets.json",
 				"bootpath" : "/_projects/MaxPatches/Presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FlabbyKick.maxpat",
+				"bootpath" : "/_projects/MaxPatches/SoundGenerators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ReceiveOrientation.maxpat",
+				"bootpath" : "/_projects/MaxPatches/Communication",
 				"type" : "JSON",
 				"implicit" : 1
 			}

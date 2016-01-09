@@ -29,12 +29,14 @@
 					"bp.Pan Mixer::live.gain~[4]" : [ 0.0 ],
 					"bp.Pan Mixer::live.gain~[5]" : [ 0.0 ],
 					"bp.Pan Mixer::live.gain~[6]" : [ 0.0 ],
-					"bp.Pan Mixer::live.gain~[7]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[7]" : [ -8.377953 ],
 					"TrishSnare::tuning" : [ 352.949341 ],
 					"TrishSnare::snappy" : [ 0.409449 ],
 					"TrishSnare::decay" : [ 75.834648 ],
 					"TrishKick::tuning" : [ 87.965355 ],
-					"TrishKick::decay" : [ 399.527557 ]
+					"TrishKick::decay" : [ 399.527557 ],
+					"FlabbyKick::decay" : [ 348.59845 ],
+					"FlabbyKick::tuning" : [ 88.20787 ]
 				}
 
 			}
@@ -66,12 +68,14 @@
 					"bp.Pan Mixer::live.gain~[4]" : [ 0.0 ],
 					"bp.Pan Mixer::live.gain~[5]" : [ 0.0 ],
 					"bp.Pan Mixer::live.gain~[6]" : [ 0.0 ],
-					"bp.Pan Mixer::live.gain~[7]" : [ 0.0 ],
+					"bp.Pan Mixer::live.gain~[7]" : [ -8.388976 ],
 					"TrishSnare::tuning" : [ 352.949341 ],
 					"TrishSnare::snappy" : [ 0.606299 ],
 					"TrishSnare::decay" : [ 59.464565 ],
 					"TrishKick::tuning" : [ 43.099213 ],
-					"TrishKick::decay" : [ 500.0 ]
+					"TrishKick::decay" : [ 500.0 ],
+					"FlabbyKick::decay" : [ 348.59845 ],
+					"FlabbyKick::tuning" : [ 88.20787 ]
 				}
 
 			}
